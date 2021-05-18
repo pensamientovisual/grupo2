@@ -1,6 +1,7 @@
 $(document).ready(function(){
     var Pais = $(".Pais");
     var mapa = $("#mapa");
+    var chile = $("#Chile");
     var boton1 = $("#boton1");
     var boton2 = $("#boton2");
     var boton3 = $("#boton3");
@@ -15,10 +16,13 @@ $(document).ready(function(){
     });
 
     boton1.click(function(){
-        $(mapa).css({fill:"#B04756"})
+        
+        $(mapa).css({fill:"#B04756"}) 
+    // hacer un if, al cual entren los valores .suicidio y segun su rango se rellenen con un color predeterminado
     });
     boton2.click(function(){
-        $(mapa).css({fill:"#4B58A8"}) 
+        $(mapa).css({fill:"#4B58A8"})
+        
     });
     boton3.click(function(){
         $(mapa).css({fill:"#3E8C51"})  
@@ -36,7 +40,6 @@ $(document).ready(function(){
 
         });
         
-        console.log('funciono');   
     });
 
 
@@ -45,6 +48,61 @@ $(document).ready(function(){
 });
 const info_paises = {
 
+    Alemania: {
+        psiquiatras: 15.23
+        suicidios: 13.6
+        indice: 176.76
+    },
+    Arabia_Saudita: {
+        psiquiatras: 2.91
+        suicidios: 3.2
+        indice: 147.37
+    },
+    Argentina:{
+        psiquiatras: 0
+        suicidios: 9.2
+        indice: 110.50
+    },
+    Australia: {
+        psiquiatras: 12.76,
+        suicidios: 13.2,
+        indice: 181.52
+    },
+    Austria: {
+        psiquiatras: 19.71,
+        suicidios: 15.6,
+        indice: 181.52
+    },
+    Azerbaiyan: {
+        psiquiatras: 5.08,
+        suicidios: 2.6,
+        indice: 102.88
+    },
+    Banglades: {
+        psiquiatras: 0.07,
+        suicidios: 5.9,
+        indice: 65.27
+    },
+    Bielorrusia: {
+        psiquiatras: 8.77,
+        suicidios: 26.2,
+        indice: 107.35
+    },
+    Bosnia_y_Herzegovina: {
+        psiquiatras: 4.95,
+        suicidios: 8.8,
+        indice: 125.71
+    },
+    Brasil: {
+        psiquiatras: 3.07,
+        suicidios: 6.5,
+        indice: 104.75
+    },
+    Bulgaria: {
+        psiquiatras: 6.75,
+        suicidios: 4.6,
+        indice: 0.83
+    },
     Chile: {
         psiquiatras: 0.99,
         suicidios: 10.6,
@@ -80,39 +138,14 @@ const info_paises = {
         suicidios: 6.6,
         indice: 0
     },
-    Australia: {
-        psiquiatras: 12.76,
-        suicidios: 13.2,
-        indice: 182.37
-    },
-    Austria: {
-        psiquiatras: 19.71,
-        suicidios: 15.6,
-        indice: 181.52
-    },
-    Azerbaijan: {
-        psiquiatras: 5.08,
-        suicidios: 2.6,
-        indice: 102.88
-    },
     Barein: {
         psiquiatras: 8.18,
         suicidios: 5.9,
         indice: 0
     },
-    Banglades: {
-        psiquiatras: 0.07,
-        suicidios: 5.9,
-        indice: 65.27
-    },
     Barbados: {
         psiquiatras: 4.29,
         suicidios: 0.8,
-        indice: 0
-    },
-    Bielorussia: {
-        psiquiatras: 8.77,
-        suicidios: 26.2,
         indice: 0
     },
     Belice: {
@@ -135,28 +168,13 @@ const info_paises = {
         suicidios: 12.2,
         indice: 0
     },
-    BosniayHerzegovina: {
-        psiquiatras: 4.95,
-        suicidios: 8.8,
-        indice: 125.71
-    },
     Botsuana: {
         psiquiatras: 0.25,
         suicidios: 9.3,
         indice: 0
     },
-    Brasil: {
-        psiquiatras: 3.07,
-        suicidios: 6.5,
-        indice: 104.75
-    },
     Brunei: {
         psiquiatras: 0.98,
-        suicidios: 4.6,
-        indice: 0.83
-    },
-    Bulgaria: {
-        psiquiatras: 6.75,
         suicidios: 4.6,
         indice: 0.83
     },

@@ -29,6 +29,10 @@
     transform: translate(-50%, -50%);
 }
 #Boton_inicial {
+    background-color: white;
+    padding: 0.7%;
+    border-radius: 5%;
+    font-weight: bolder;
     display: flex;
     position:absolute;
     bottom: 30px;

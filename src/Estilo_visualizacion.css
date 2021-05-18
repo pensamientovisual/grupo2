@@ -5,6 +5,7 @@
 
 #mapa{
     margin-top: 2%;
+    margin-bottom: 2%;
     float: left;
     width: 75%;
     height: 75%;
@@ -24,9 +25,7 @@ body{
     padding: 20px;
     margin: 20px;
     background-color: transparent;
-    border: 1px solid black;
     height: 275px;
-    
 
 }
 
@@ -65,7 +64,22 @@ button{
 
 }
 
+.tasa{
+    padding: 1%;
+    border: 1px #B04756;
+}
+
+.ind{
+    padding: 1%;
+    border: 1px #4B58A8;
+}
+
+.psic{
+    padding: 1%;
+    border: 1px #3E8C51;
+}
+
 svg{
-    fill: #4b58a8;
+    fill:#B04756;
   }
 
