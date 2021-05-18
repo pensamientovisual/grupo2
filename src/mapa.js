@@ -29,13 +29,14 @@ $(document).ready(function(){
         $('#span1').text(info_paises[this.id].suicidios)
         $('#span2').text(info_paises[this.id].psiquiatras)
         $('#span3').text(info_paises[this.id].indice)
-        $('#span_Pais').text(this.id)
+        $('#Pais_referenciado').text(this.id)
         
     
 
 
         });
-         
+        
+        console.log('funciono');   
     });
 
 
@@ -56,22 +57,22 @@ const info_paises = {
     },
     Albania: {
         psiquiatras: 1.83,
-        suicidios: 6.3,
+        Suicidios: 6.3,
         indice: 0
     },
     Algeria: {
         psiquiatras: 1.55,
-        suicidios: 3.2,
+        Suicidios: 3.2,
         Indice: 0
     },
     Andorra: {
         psiquiatras: 6.92,
-        suicidios: 4.7,
+        Suicidios: 4.7,
         Indice: 0
     },
     AntiguayBarbuda: {
         psiquiatras: 1.13,
-        suicidios: 0.5,
+        Suicidios: 0.5,
         Indice: 0
     },
     Armenia: {
