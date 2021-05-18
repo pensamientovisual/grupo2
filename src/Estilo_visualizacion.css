@@ -4,9 +4,10 @@
 }
 
 #mapa{
+    margin-top: 2%;
     float: left;
-    width: 80%;
-    height: 80%;
+    width: 75%;
+    height: 75%;
 }
 
 body{
@@ -16,8 +17,7 @@ body{
 
 #datos{
     float: right;
-    top: 300px;
-    width: 300px;
+    width: 275px;
 }
 
 .datos2{
@@ -25,20 +25,45 @@ body{
     margin: 20px;
     background-color: transparent;
     border: 1px solid black;
-    height: 175px;
+    height: 275px;
     
 
 }
 
-#Ir_a_Chile{
+button{
     color: white;
     font-weight: bolder;
-    padding: 2%;
-    background-color: black;
+    margin: 1.7%;
+    padding: 1%;
     border-radius: 7%;
     
 }
 
+#Ir_a_Chile{
+    background-color: black;
+}
+
+#boton1{
+    background-color: #B04756;
+}
+
+#boton2{
+    background-color: #4B58A8;
+}
+
+#boton3{
+    background-color: #3E8C51;
+}
+
+#telefono{
+    background-color: rgb(104, 104, 104);
+    height: 80px;
+    width: 95%;
+    position: absolute;
+    top: 780px;
+    padding: 2.5%;
+
+}
 
 svg{
     fill: #4b58a8;
