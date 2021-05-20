@@ -49,18 +49,18 @@ $(document).ready(function(){
 const info_paises = {
 
     Alemania: {
-        psiquiatras: 15.23
-        suicidios: 13.6
+        psiquiatras: 15.23,
+        suicidios: 13.6,
         indice: 176.76
     },
     Arabia_Saudita: {
-        psiquiatras: 2.91
-        suicidios: 3.2
+        psiquiatras: 2.91,
+        suicidios: 3.2,
         indice: 147.37
     },
     Argentina:{
-        psiquiatras: 0
-        suicidios: 9.2
+        psiquiatras: 0,
+        suicidios: 9.2,
         indice: 110.50
     },
     Australia: {
