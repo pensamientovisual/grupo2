@@ -17,8 +17,9 @@ body{
 }
 
 #datos{
-    float: right;
-    width: 275px;
+    position: absolute;
+    right: 20px;
+    width: 273px;
 }
 
 .datos2{
@@ -47,11 +48,11 @@ button{
 }
 
 #boton2{
-    background-color: #4B58A8;
+    background-color: #3E8C51;
 }
 
 #boton3{
-    background-color: #3E8C51;
+    background-color: #4B58A8;
 }
 
 #telefono{
@@ -59,27 +60,28 @@ button{
     height: 80px;
     width: 95%;
     position: absolute;
-    top: 850px;
+    top: 880px;
     padding: 2.5%;
 
 }
 
 .tasa{
-    padding: 1%;
-    border: 1px #B04756;
+    padding: 2%;
+    border: #B04756 2px solid;
 }
 
 .ind{
-    padding: 1%;
-    border: 1px #4B58A8;
+    padding: 2%;
+    border: #4B58A8 2px solid;
 }
 
 .psic{
-    padding: 1%;
-    border: 1px #3E8C51;
+    padding: 2%;
+    border: #3E8C51 2px solid; 
 }
 
 svg{
+    padding: 2%;
     fill:#B04756;
   }
 
