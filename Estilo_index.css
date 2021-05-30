@@ -8,11 +8,13 @@
     font-family:'Roboto', sans-serif;
     color: whitesmoke;
     opacity: 0.7;
-    font-size: 25px;
+    font-size: 35px;
     position: absolute;
-    top: 530px;
-    left: 345px;
+    top: 640px;
+    left: 360px;
+    width: 55%;
 }
+
 #div_imagen{
     
     display: flex;
@@ -29,11 +31,15 @@
     transform: translate(-50%, -50%);
 }
 #Boton_inicial {
-    background-color: rgb(236, 236, 236);
+    background-color: whitesmoke;
+    color: #191924;
+    opacity: 0.7;
     padding: 0.7%;
     margin: 2%;
     border-radius: 7%;
     font-weight: bolder;
+    font-size: medium;
+    font-family:'Roboto', sans-serif;
     display: flex;
     position:absolute;
     bottom: 10px;
@@ -43,6 +49,7 @@
 
 #Titulo_principal{
       font-family:'Noto Sans KR', sans-serif;
+      color: #191924;
       font-size: 55px;
       justify-content: center;
       

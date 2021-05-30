@@ -19,27 +19,33 @@
 
     <p id="bajada">¿Cómo está Chile en comparación con los otros países del mundo?</p>
 
-    <p id="intro botones">En general, ¿un mayor índice de calidad de vida y un mayor número de psiquiatras al servicio de la población, significan una menor tasa de suicidios? Compara y juzga tú mismo:</p>
+    <p id="intro_botones">En general, ¿un mayor índice de calidad de vida y un mayor número de psiquiatras al servicio de la población, significan una menor tasa de suicidios? Compara y juzga tú mismo:</p>
+
+    <p id="nota">*A mayor número, más oscuro el color.</p>
 
     <div id="datos">
         <div class="datos2" id="datos_en_Chile">
             <p style="font-weight: bold;">Chile</p>
-            <p class="tasa"> 
+            <div class="datoschile1"> 
+            <div class="tasa"> 
+            <p> 
                 Tasa de suicidios por cada 100.000 habitantes:
-                <center>10.6</center>
+                <center>10.6 Personas</center>
             </p>
-
-            <p class="psic">
+            </div>
+            <div  class="psic" > 
+            <p>
                 Psiquiatras por cada 100.000 habitantes: 
-                <center>0.99</center>
+                <center>0.99 Psiquiatras</center>
             </p>
-
-            <p class ="ind">
+            </div>
+            <div  class ="ind"> 
+            <p>
                 Indice de calidad de vida: 
-                <center>99.9</center>
+                <center>99.9 ICV</center>
             </p>
-            
-            <!--<button id="Ir_a_Chile">Ir a Chile</button>-->
+            </div>
+            </div>
         </div>
         <div class="datos2" id="pais_seleccionado">
             <p style="font-weight: bold;" id="Pais_referenciado">
@@ -48,39 +54,43 @@
                     
                 </span>
             </p>
-
-            <p class="tasa" id="tasa_de_suicidios">
+            <div class="tasa" id="tasa_de_suicidios">
+            <p>
                 Tasa de suicidios por cada 100.000 habitantes:<br> 
                 <center span id="span1">
 
                 </center span>
             </p>
-            
-            <p class="psic" id="psiquiatras">
+            </div>
+            <div class="psic" id="psiquiatras"> 
+            <p>
                 Psiquiatras por cada 100.000 habitantes:<br>
                 <center span id="span2">
                     
                 </center span>
             </p>
-
-            <p class="ind" id="indice">
+            </div>
+            <div class="ind" id="indice">
+            <p>
                 Indice de calidad de vida:<br>
                 <center span id="span3">
 
                 </center span>
             </p>
+            </div>
         </div>
     </div>
-    <form action="visualizacion.html">
-        <input id="boton1" type="submit" value="Cantidad de suicidios"> 
-    </form> 
-    <form action="visualizacion_2.html">
-        <input id="boton2" type="submit" value="Indice de Calidad de Vida"> 
-    </form> 
-    <form action="Visualizacion_3.html">
-        <input id="boton3" type="submit" value="Psiquiatras por N° de Habitantes"> 
-    </form> 
-    <p id="nota">*A mayor número, más oscuro el color.</p>
+    <div class="prueba">
+        <form  action="visualizacion.html">
+            <input id="boton1" class="botones" type="submit" value="Cantidad de suicidios"> 
+        </form> 
+        <form  action="visualizacion_2.html">
+            <input id="boton2" class="botones" type="submit" value="Indice de Calidad de Vida"> 
+        </form> 
+        <form  action="Visualizacion_3.html">
+            <input id="boton3" class="botones" type="submit" value="Psiquiatras por N° de Habitantes"> 
+        </form> 
+    </div>
 
 
     <svg id="mapa"  baseprofile="tiny" height="857" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".2" version="1.2" viewbox="0 0 2000 857" width="2000" xmlns="http://www.w3.org/2000/svg">

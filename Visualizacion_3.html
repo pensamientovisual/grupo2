@@ -19,25 +19,31 @@
 
     <p id="bajada">¿Cómo está Chile en comparación con los otros países del mundo?</p>
 
-    <p id="intro botones">En general, ¿un mayor índice de calidad de vida y un mayor número de psiquiatras al servicio de la población, significan una menor tasa de suicidios? Compara y juzga tú mismo:</p>
+    <p id="intro_botones">En general, ¿un mayor índice de calidad de vida y un mayor número de psiquiatras al servicio de la población, significan una menor tasa de suicidios? Compara y juzga tú mismo:</p>
+
+    <p id="nota">*A mayor número, más oscuro el color.</p>
 
     <div id="datos">
         <div class="datos2" id="datos_en_Chile">
             <p style="font-weight: bold;">Chile</p>
-            <p class="tasa"> 
-                Tasa de suicidios por cada 100.000 habitantes:
-                <center>10.6</center>
-            </p>
-
-            <p class="psic">
-                Psiquiatras por cada 100.000 habitantes: 
-                <center>0.99</center>
-            </p>
-
-            <p class ="ind">
-                Indice de calidad de vida: 
-                <center>99.9</center>
-            </p>
+            <div class="tasa"> 
+                <p> 
+                    Tasa de suicidios por cada 100.000 habitantes:
+                    <center>10.6 Personas</center>
+                </p>
+                </div>
+                <div  class="psic"> 
+                <p>
+                    Psiquiatras por cada 100.000 habitantes: 
+                    <center>0.99 Psiquiatras</center>
+                </p>
+                </div>
+                <div  class ="ind"> 
+                <p>
+                    Indice de calidad de vida: 
+                    <center>99.9 ICV</center>
+                </p>
+                </div>
             
             <!--<button id="Ir_a_Chile">Ir a Chile</button>-->
         </div>
@@ -47,48 +53,46 @@
                 <span id="span_Pais">
                     
                 </span>
-            </p>
-
-            <p class="tasa" id="tasa_de_suicidios">
-                Tasa de suicidios por cada 100.000 habitantes:<br> 
-                <center span id="span1">
-
-                </center span>
-            </p>
-            
-            <p class="psic" id="psiquiatras">
-                Psiquiatras por cada 100.000 habitantes:<br>
-                <center span id="span2">
-                    
-                </center span>
-            </p>
-
-            <p class="ind" id="indice">
-                Indice de calidad de vida:<br>
-                <center span id="span3">
-
-                </center span>
-            </p>
+                <div class="tasa" id="tasa_de_suicidios">
+                    <p>
+                        Tasa de suicidios por cada 100.000 habitantes:<br> 
+                        <center span id="span1">
+        
+                        </center span>
+                    </p>
+                    </div>
+                    <div class="psic" id="psiquiatras"> 
+                    <p>
+                        Psiquiatras por cada 100.000 habitantes:<br>
+                        <center span id="span2">
+                            
+                        </center span>
+                    </p>
+                    </div>
+                    <div class="ind" id="indice">
+                    <p>
+                        Indice de calidad de vida:<br>
+                        <center span id="span3">
+        
+                        </center span>
+                    </p>
+                    </div>
         </div>
     </div>
-    <form action="visualizacion.html">
-        <input id="boton1" type="submit" value="Cantidad de suicidios"> 
-    </form> 
-    <form action="visualizacion_2.html">
-        <input id="boton2" type="submit" value="Indice de Calidad de Vida"> 
-    </form> 
-    
-    <form action="Visualizacion_3.html">
-        <input id="boton3" type="submit" value="Psiquiatras por N° de Habitantes"> 
-    </form> 
-    
-    <p id="nota">*A mayor número, más oscuro el color.</p>
+    <div class="prueba">
+        <form action="visualizacion.html">
+            <input id="boton1" class="botones" type="submit" value="Cantidad de suicidios"> 
+        </form> 
+        <form action="visualizacion_2.html">
+            <input id="boton2" class="botones" type="submit" value="Indice de Calidad de Vida"> 
+        </form> 
+        
+        <form action="Visualizacion_3.html">
+            <input id="boton3" class="botones" type="submit" value="Psiquiatras por N° de Habitantes"> 
+        </form> 
+        
+    </div>
 
-#6B93F5
-#5565DB
-#3632B8
-#151175
-#080A38
     <svg id="mapa" baseprofile="tiny" height="857" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".2" version="1.2" viewbox="0 0 2000 857" width="2000" xmlns="http://www.w3.org/2000/svg">
         <g>
         <path class= "Pais" id="Afghanistan" d="M1383 261.6l1.5 1.8-2.9 0.8-2.4 1.1-5.9 0.8-5.3 1.3-2.4 2.8 1.9 2.7 1.4 3.2-2 2.7 0.8 2.5-0.9 2.3-5.2-0.2 3.1 4.2-3.1 1.7-1.4 3.8 1.1 3.9-1.8 1.8-2.1-0.6-4 0.9-0.2 1.7-4.1 0-2.3 3.7 0.8 5.4-6.6 2.7-3.9-0.6-0.9 1.4-3.4-0.8-5.3 1-9.6-3.3 3.9-5.8-1.1-4.1-4.3-1.1-1.2-4.1-2.7-5.1 1.6-3.5-2.5-1 0.5-4.7 0.6-8 5.9 2.5 3.9-0.9 0.4-2.9 4-0.9 2.6-2-0.2-5.1 4.2-1.3 0.3-2.2 2.9 1.7 1.6 0.2 3 0 4.3 1.4 1.8 0.7 3.4-2 2.1 1.2 0.9-2.9 3.2 0.1 0.6-0.9-0.2-2.6 1.7-2.2 3.3 1.4-0.1 2 1.7 0.3 0.9 5.4 2.7 2.1 1.5-1.4 2.2-0.6 2.5-2.9 3.8 0.5 5.4 0z"  name="Afghanistan">
@@ -255,9 +259,9 @@
         </path>
         <path class= "Pais" id="Gabon" d="M1060.5 487.3l-0.4 2.8 1.6 3.3 4.2-0.5 1.4 1.2-2.5 7.5 2.7 3.8 0.6 5-0.7 4.3-1.7 3-5-0.3-3.1-3.1-0.4 2.9-3.8 0.8-2 1.6 2.1 4.2-4.3 3.6-5.8-6.5-3.7-5.3-3.5-6.6 0.2-2.2 1.3-2 1.3-4.7 1.2-4.8 1.9-0.3 8.2 0 0-7.7 2.7-0.4 3.4 0.8 3.4-0.8 0.7 0.4z" name="Gabon">
         </path>
-        <path class= "Pais" id="Reino_Unido" d="M 956.7 158.2 953.2 157 950.2 157.1 951.4 153.8 950.5 150.6 954.5 150.3 959.4 154.1 956.7 158.2 Z">
+        <path class= "Pais" id="Reino_Unido" fill="#5565DB" d="M 956.7 158.2 953.2 157 950.2 157.1 951.4 153.8 950.5 150.6 954.5 150.3 959.4 154.1 956.7 158.2 Z">
         </path>
-        <path class= "Pais" id="Reino_Unido" d="M 972.6 129.5 967.5 136 972.2 135.2 977.3 135.2 976 140.1 971.7 145.5 976.6 145.8 976.9 146.5 981.1 153.6 984.3 154.6 987.2 161.6 988.6 164 994.5 165.1 993.9 169.1 991.5 170.9 993.4 174.1 989 177.3 982.5 177.2 974.1 179 971.9 177.7 968.6 180.6 964.1 179.9 960.5 182.3 958 181.1 965.3 174.6 969.7 173.2 962.1 172.2 960.8 169.7 965.9 167.8 963.4 164.5 964.4 160.5 971.5 161.1 972.3 157.5 969.2 153.8 969.1 153.7 963.4 152.6 962.3 151 964.1 148.3 962.6 146.6 960 149.5 959.9 143.6 957.7 140.6 959.6 134.4 963.4 129.6 967 130 972.6 129.5 Z">
+        <path class= "Pais" id="Reino_Unido" fill="#5565DB" d="M 972.6 129.5 967.5 136 972.2 135.2 977.3 135.2 976 140.1 971.7 145.5 976.6 145.8 976.9 146.5 981.1 153.6 984.3 154.6 987.2 161.6 988.6 164 994.5 165.1 993.9 169.1 991.5 170.9 993.4 174.1 989 177.3 982.5 177.2 974.1 179 971.9 177.7 968.6 180.6 964.1 179.9 960.5 182.3 958 181.1 965.3 174.6 969.7 173.2 962.1 172.2 960.8 169.7 965.9 167.8 963.4 164.5 964.4 160.5 971.5 161.1 972.3 157.5 969.2 153.8 969.1 153.7 963.4 152.6 962.3 151 964.1 148.3 962.6 146.6 960 149.5 959.9 143.6 957.7 140.6 959.6 134.4 963.4 129.6 967 130 972.6 129.5 Z">
         </path>
         <path class= "Pais" id="Georgia" d="M1215.7 227.9l5.1 1.3 2.1 2.6 3.6 1.5-1.2 0.8 3.3 3.5-0.6 0.7-2.9-0.3-4.2-1.9-1.1 1.1-7 1-5.6-3.2-5.5 0.3 0.3-2.7-2.1-4.3-3.4-2.4-3-0.7-2.2-1.9 0.4-0.8 4.6 1.1 7.7 1 7.6 3.1 1.2 1.2 2.9-1z" name="Georgia">
         </path>

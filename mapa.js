@@ -20,9 +20,9 @@ $(document).ready(function(){
     $(function(){
         $(Pais).on('click',function(){
 
-        $('#span1').text(info_paises[this.id].suicidios)
-        $('#span2').text(info_paises[this.id].psiquiatras)
-        $('#span3').text(info_paises[this.id].indice)
+        $('#span1').text(info_paises[this.id].suicidios +" " + "Personas")
+        $('#span2').text(info_paises[this.id].psiquiatras +" " + "Psiquiatras")
+        $('#span3').text(info_paises[this.id].indice +" " + "ICV")
         $('#Pais_referenciado').text(this.id)
         
     
@@ -237,7 +237,124 @@ const info_paises = {
         indice: 164.48
     },
     Estados_Unidos: {
-        
+        psiquiatras: 7.79,
+        suicidios: 15.3,
+        indice: 166.98
+    },
+    Estonia: {
+        psiquiatras: 13.5,
+        suicidios: 17.8,
+        indice: 173.56
+    },
+    Finlandia: {
+        psiquiatras: 28.06,
+        suicidios: 15.9,
+        indice: 182.79
+    },
+    Francia: {
+        psiquiatras:22.35,
+        suicidios: 17.7,
+        indice:150.73
+    },
+    Grecia: {
+        psiquiatras: 12.88,
+        suicidios: 5,
+        indice: 129.86
+    },
+    Hungria: {
+        psiquiatras: 6.52,
+        suicidios: 19.1,
+        indice: 134.01
+    },
+    Islandia: {
+        psiquiatras: 19.74,
+        suicidios: 14,
+        indice: 179.1
+    },
+    Irlanda: {
+        psiquiatras: 6.06,
+        suicidios: 11.5,
+        indice: 150.89
+    },
+    Israel: {
+        psiquiatras: 8.24,
+        suicidios: 5.4,
+        indice: 144.14
+    },
+    Italia: {
+        psiquiatras: 7.81,
+        suicidios: 8.2,
+        indice: 138.63
+    },
+    Japon: {
+        psiquiatras: 10.1,
+        suicidios: 18.5,
+        indice: 162.32
+    },
+    Lituania: {
+        psiquiatras: 17.76,
+        suicidios: 39.9,
+        indice: 160.02
+    },
+    Luxemburgo: {
+        psiquiatras: 21.15,
+        suicidios: 13.5,
+        indice: 173.81
+    },
+    Letonia: {
+        psiquiatras: 10.85,
+        suicidios: 21.2,
+        indice: 147.59
+    },
+    Mexico: {
+        psiquiatras: 1.57,
+        suicidios: 5.1,
+        indice: 120.29
+    },
+    Noruega: {
+        psiquiatras: 30.77,
+        suicidios: 12.2,
+        indice: 173.57
+    },
+    Nueva_Zelanda: {
+        psiquiatras:9.76,
+        suicidios: 12.1,
+        indice:175.77
+    },
+    Paises_Bajos: {
+        psiquiatras: 18.77,
+        suicidios: 12.6,
+        indice: 183.31
+    },
+    Polonia: {
+        psiquiatras: 5.13,
+        suicidios: 16.2,
+        indice: 132.65
+    },
+    Portugal: {
+        psiquiatras:6.14,
+        suicidios: 14,
+        indice: 161.91
+    },
+    Reino_Unido: {
+        psiquiatras: 11,
+        suicidios: 8.9,
+        indice: 158.99
+    },
+    Suiza: {
+        psiquiatras: 41.42,
+        suicidios: 17.2,
+        indice: 190.82
+    },
+    Suecia: {
+        psiquiatras: 3.55,
+        suicidios: 14.8,
+        indice: 171.4
+    },
+    Turquia:{
+        psiquiatras: 2.13,
+        suicidios: 7.3,
+        indice: 125.97
     }
     
 

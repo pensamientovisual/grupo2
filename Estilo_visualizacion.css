@@ -1,6 +1,30 @@
 #titulo{
     display: flex;
     justify-content: center;
+    font-family:'Noto Sans KR', sans-serif;
+    color: #191924;
+    font-size: 45px;
+}
+
+#bajada{
+    display: flex;
+    justify-content: center;
+    font-family:'Roboto', sans-serif;
+    color: #191924;
+    font-size: 35px;
+    margin-top: 0.5%;
+}
+
+#intro_botones{
+    font-family:'Roboto', sans-serif;
+    color: #191924;
+    font-size: 25px;
+}
+
+#nota{
+    font-family:'Roboto', sans-serif;
+    color: #191924;
+    font-size: 25px 
 }
 
 #mapa{
@@ -12,7 +36,7 @@
 }
 
 body{
-    background-color: lightgray;
+    background-color:#A3A29E;
     font-family: sans-serif;
 }
 
@@ -21,22 +45,31 @@ body{
     right: 20px;
     width: 273px;
 }
-
+.datoschile1{
+    margin: auto;
+}
 .datos2{
+    border: #191924 5px solid;
     padding: 20px;
     margin: 20px;
     background-color: transparent;
-    height: 275px;
 
 }
 
-form{
+.botones{
     color: white;
     font-weight: bolder;
-    margin: 1.7%;
-    padding: 1%;
+    font-size: medium;
+    margin: 1.5%;
     border-radius: 7%;
+    padding: 10px;
     
+}
+
+.prueba{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
 }
 
 #Ir_a_Chile{
@@ -60,12 +93,12 @@ form{
     height: 80px;
     width: 95%;
     position: absolute;
-    top: 880px;
+    top: 1500px;
     padding: 2.5%;
-
 }
 
 .tasa{
+    position: relative;
     padding: 2%;
     border: #B04756 2px solid;
 }
