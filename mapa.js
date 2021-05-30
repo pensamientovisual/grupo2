@@ -15,18 +15,8 @@ $(document).ready(function(){
         $(this).fadeTo("fast", 1);
     });
 
-    boton1.click(function(){
-        
-        $(mapa).css({fill:"#B04756"}) 
-    // hacer un if, al cual entren los valores .suicidio y segun su rango se rellenen con un color predeterminado
-    });
-    boton2.click(function(){
-        $(mapa).css({fill:"#4B58A8"})
-        
-    });
-    boton3.click(function(){
-        $(mapa).css({fill:"#3E8C51"})  
-    });
+
+
     $(function(){
         $(Pais).on('click',function(){
 
@@ -42,10 +32,8 @@ $(document).ready(function(){
         
     });
 
-
-    
-
 });
+
 const info_paises = {
 
     Alemania: {
@@ -202,8 +190,56 @@ const info_paises = {
         psiquiatras: 0.03,
         suicidios: 12.2,
         indice: 0
+    },
+    Belgica: {
+        Psiquiatras: 18,
+        suicidios: 20.7,
+        indice:150.89
+    },
+    Canada: {
+        psiquiatras: 12.61,
+        suicidios: 12.5,
+        indice: 159.99
+    },
+    Colombia: {
+        psiquiatras: 2.5,
+        suicidios: 7.2,
+        indice: 101.33
+    },
+    Corea_del_Sur: {
+        psiquiatras: 5.12,
+        suicidios: 26.9,
+        indice: 130.02
+    },
+    Republica_Checa: {
+        psiquiatras: 11.85,
+        suicidios: 13.1,
+        indice: 156.33
+    },
+    Dinamarca: {
+        psiquiatras: 14.12,
+        suicidios: 12.6,
+        indice: 190.41
+    },
+    Eslovaquia: {
+        psiquiatras: 11.48,
+        suicidios: 12.8,
+        indice: 149.68
+    },
+    Eslovenia: {
+        psiquiatras: 7.06,
+        suicidios: 8.7,
+        indice: 168.2
+    },
+    España: {
+        psiquiatras: 8.59,
+        suicidios: 8.7,
+        indice: 164.48
+    },
+    Estados_Unidos: {
+        
     }
-
+    
 
 }
 

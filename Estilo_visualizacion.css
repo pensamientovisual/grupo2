@@ -30,7 +30,7 @@ body{
 
 }
 
-button{
+form{
     color: white;
     font-weight: bolder;
     margin: 1.7%;
@@ -82,7 +82,7 @@ button{
 
 svg{
     padding: 2%;
-    fill:#B04756;
+    fill: rgba(148, 148, 148, 0.596);
   }
 
 .Pais{
