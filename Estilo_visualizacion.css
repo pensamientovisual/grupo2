@@ -95,22 +95,28 @@ body{
     position: absolute;
     top: 1500px;
     padding: 2.5%;
+    font-family:'Roboto', sans-serif;
+    color: #191924;
+    font-size: 20px;
 }
 
 .tasa{
     position: relative;
     padding: 2%;
     border: #B04756 2px solid;
+    margin:3px;
 }
 
 .ind{
     padding: 2%;
     border: #4B58A8 2px solid;
+    margin:3px;
 }
 
 .psic{
     padding: 2%;
     border: #3E8C51 2px solid; 
+    margin:3px;
 }
 
 svg{
